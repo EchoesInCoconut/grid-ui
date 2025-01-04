@@ -1,0 +1,11 @@
+.TableList {
+    width: 700px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flow;
+}
+
+.Distance {
+    margin-top: 10px;
+}

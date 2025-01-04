@@ -1,0 +1,54 @@
+.TableCreation {
+    width: 100%;
+    height: 190px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.TitleWrapper {
+    margin-top: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.TableCreationItem {
+    margin-left: 5%;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.TableCreationItem input {
+    width: 100%;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.TableCreationItemName {
+    width: 150px;
+}
+
+.CreateButton {
+    margin-left: auto;
+    margin-right: 0;
+    width: 70px;
+    height: 25px;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.CreateButton:hover {
+    border-width: 2px;
+}

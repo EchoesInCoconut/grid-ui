@@ -1,0 +1,36 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+.context-menu {
+    position: absolute;
+    z-index: 9999;
+    width: 200px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.context-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.context-menu ul li {
+    list-style: none;
+    border-bottom: 1px solid #d9d9d9;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 0;
+    color: #555;
+}
+
+.context-menu ul li:hover {
+    background-color: #e6f7ff;
+    border-radius: 5px;
+}

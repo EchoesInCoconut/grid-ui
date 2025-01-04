@@ -1,0 +1,54 @@
+.TableWrapper {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.TableNameWrapper {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.TableName {
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.TableName:hover {
+    color: #FCBF49;
+}
+
+.TableNameInput {
+    width: 280px;
+    margin: auto;
+}
+
+.Backward {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    color: gray;
+}
+
+.Backward:hover {
+    color: black;
+}
+
+.Download {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    color: gray;
+}
+
+.Download:hover {
+    color: black;
+}

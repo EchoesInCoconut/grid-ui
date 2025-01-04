@@ -1,0 +1,39 @@
+.Modal {
+    width: 300px;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.Q {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+}
+
+.A button {
+    width: 55px;
+    height: 25px;
+    margin: auto auto;
+    border-radius: 10px;
+    font-size: 15px;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.A button:hover {
+    background-color: #FCBF49;
+}

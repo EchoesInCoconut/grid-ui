@@ -1,0 +1,35 @@
+.InputWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Input {
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+}
+
+.InputIconWrapper {
+    display: flex;
+    margin-left: 10px;
+}
+
+.InputIconYes {
+    cursor: pointer;
+}
+
+.InputIconYes:hover {
+    color: #FCBF49;
+}
+
+.InputIconNo {
+    color: gray;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.InputIconNo:hover {
+    color: #FCBF49;
+}

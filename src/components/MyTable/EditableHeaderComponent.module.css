@@ -1,0 +1,15 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderIcons {
+    display: flex;
+    justify-content: right;
+}
+
+.HeaderArrow {
+    padding-right: 5px;
+    color: #FCBF49;
+}
